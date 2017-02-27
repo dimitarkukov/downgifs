@@ -7,7 +7,6 @@ import os
 import sys
 
 
-print(len(sys.argv))
 
 if len(sys.argv) < 3:  # checks for enough arguments
     print("Usage: getAllTheGifs.py 'number of pages' 'path to save'")
